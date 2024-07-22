@@ -1,0 +1,9 @@
+[build]
+  # Directory where the build output is located
+  publish = "_site"  # Adjust this according to your static site's output directory
+  # Command to build your site
+  command = "jekyll build"  # Replace this with your actual build command
+
+[context.production.environment]
+  # Optional: Environment variables for production
+  NODE_ENV = "production"
